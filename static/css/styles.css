@@ -1,0 +1,15 @@
+* { font-family: verdana, sans-serif; }
+
+header
+{
+	background-color: pink;
+	padding: 40px;
+}
+
+h1 { color: #888; }
+
+div
+{
+	background-color: #CCC;
+	padding: 20px 40px;
+}

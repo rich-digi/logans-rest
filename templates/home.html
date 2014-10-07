@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Logan's Run Name Generator</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+	<script src="{{ url_for('static', filename='js/app.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/maincontroller.js') }}"></script>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}" type="text/css" />
+</head>
+<body>
+
+<header>
+	<h1>Logan's Name Generator</h1>
+</header>
+
+<div ng-app="logans" ng-controller="main">
+	{% raw %}
+	<h3>{{data.name}}</h3>
+	{% endraw %}
+</div>
+
+</body>
+</html>
